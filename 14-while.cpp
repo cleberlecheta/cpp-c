@@ -6,8 +6,15 @@ int main() {
 
     n = 0;
     while (n<10) {
-        cout << ++n << "\n";
+        cout << n << "\n";
+        n++;
     }
+
+    // while (n<10) {
+    //     cin >> n;
+    // }
+
+    cout << "\n Rotina finalizada \n";
 
     return 0;
 }

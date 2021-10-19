@@ -13,7 +13,6 @@ int main() {
     }
 
     int num2 = 0;
-
     if (!num2) {
         cout << "\n\nFicar em casa estudando\n";
     }
