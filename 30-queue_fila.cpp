@@ -8,10 +8,14 @@ int main() {
     /*
     empty
     size
-    front
-    back
     push
     pop
+
+    - sai (top) entra:
+    + front - nao remove da fila
+    + back - nao remove da fila
+    
+    apenas o pop faz a remoção da fila
     */
 
     queue <string> veiculos;
