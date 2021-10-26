@@ -26,7 +26,7 @@ basic/29-stack_pilha
 basic/30-queue_fila
 basic/31-list_lista
 basic/32-struct
-36-pointers
+basic/36-pointers
 40-printf_scanf
 42-vector
 43-system
