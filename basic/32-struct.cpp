@@ -34,7 +34,7 @@ struct Carro {
 
 int main() {
 
-    Carro *carros=new Carro[5];
+    Carro *carros = new Carro[5]; //Array of struct is declared with pointer
     Carro car1, car2, car3, car4, car5;
 
     car1.nome = "Tati Mobile";
