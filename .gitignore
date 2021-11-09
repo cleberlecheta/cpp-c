@@ -27,9 +27,9 @@ basic/30-queue_fila
 basic/31-list_lista
 basic/32-struct
 basic/36-pointers
-40-printf_scanf
-42-vector
-43-system
+basic/40-printf_scanf
+basic/42-vector
+basic/43-system
 44-POO_1
 45-POO_2
 46-POO_3

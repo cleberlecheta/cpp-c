@@ -1,11 +1,11 @@
 #include <iostream>
-#include <stdlib.h>
+#include <stdlib.h> //comando system
 
 using namespace std;
 
 int main() {
     cout << "Arquivos C++ de aprendizado do curso:\n" << endl;
-    system("ls *.cpp");
+    system("ls *.cpp"); //executa um comando do sistema operacional
     
     return 0;
 }

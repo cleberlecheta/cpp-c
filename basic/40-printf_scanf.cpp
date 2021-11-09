@@ -1,12 +1,13 @@
 #include <iostream>
-#include <stdio.h>
-#include <math.h>
-#include <iomanip>
+#include <stdio.h> //printf e scanf
+#include <math.h> //PI number
+#include <iomanip> //manipulação de entrada e saída
 
 using namespace std;
 
 int main() {
 
+    //same of cout
     printf("Olá Mundo! \0 acabou aqui a string");
 
     /*
@@ -20,6 +21,12 @@ int main() {
     int num1=123;
     printf("\n valor da variavel: %d", num1);
 
+    int num2=345;
+    char texto[100] = "Jesus vai salvar o Brasil!";
+
+    printf("\n valor da variavel: %d %d \n Mensagem: %s\n", num1, num2, texto);
+
+    //same of cin
     //scanf("%d", &num1);
     //printf("\n novo valor da variavel: %d", num1);
 
@@ -35,11 +42,11 @@ int main() {
     cout << "\n Valor de PI scientific: " << std::scientific << pi;
 
     int num = 10;
-    printf("\n Valor de NUM: %07d", num);
+    printf("\n Valor de NUM: %07d", num); //fill with zeroes at the begining
 
-    cout << "\n Valor de NUM: " << setw(10) << setfill('1') << num;
+    cout << "\n Valor de NUM: " << setw(50) << setfill('0') << num;
     cout << "\n Valor de NUM em dec: " << num;
-    cout << "\n Valor de NUM em hex: " << hex << num; //hex, oct, dec
+    cout << "\n Valor de NUM em hex: " << hex << num; //convert any variable to: hex, oct, dec
 
     return 0;
 }

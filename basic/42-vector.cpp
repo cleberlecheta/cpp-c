@@ -5,21 +5,23 @@ using namespace std;
 
 int main() {
 
-    vector<int> num1; //uma modernizacao da estrutura array
+    //uma modernizacao da estrutura array, não precisa mais definir o tamanho inicial, aloca dinamicamente
+    vector<int> num1;
     vector<int> num2;
     int tam, i;
 
+    num1.push_back(1); //adiciona no final da estrutura
     num1.push_back(2);
     num1.push_back(3);
-    num1.push_back(4);
 
+    num2.push_back(4);
     num2.push_back(5);
     num2.push_back(6);
     num2.push_back(7);
-    num2.push_back(8);
+    num2[3] = 77; //acesso direto a uma posicao com alteracao de valor
 
     //num1.insert(num1.begin(), 888);
-    num1.insert(num1.begin()+1, 888);
+    num1.insert(num1.begin()+1, 888); //insere um elemento em qualquer posicao
     num1.insert(num1.end(), 999);
     // num1.erase(num1.end());
 
