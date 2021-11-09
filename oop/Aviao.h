@@ -7,7 +7,7 @@ class Aviao {
         int vel=0;
         int velMax;
         std::string tipo;
-        Aviao(int tp);
+        Aviao(int tp); //default constructor
         void imprimir();
 
     private:
@@ -26,12 +26,10 @@ Aviao::Aviao(int tp) {
     }
 }
 
-/*
 void Aviao::imprimir() {
     std::cout << "Tipo: " << tipo << std::endl;
     std::cout << "Velocidade MAX: " << velMax << std::endl;
     std::cout << "Velocidade atual: " << vel << "\n" << std::endl;
 }
-*/
 
 #endif // AVIAO_H_INCLUDED

@@ -30,10 +30,10 @@ basic/36-pointers
 basic/40-printf_scanf
 basic/42-vector
 basic/43-system
-44-POO_1
-45-POO_2
-46-POO_3
-47-POO_4
+oop/44-POO_1
+oop/45-POO_2
+oop/46-POO_3
+oop/47-POO_4
 61-map
 62-smart_pointer
 64-POO-Classes

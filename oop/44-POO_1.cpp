@@ -29,11 +29,11 @@ void Aviao ::ini(int tp) {
 int main() {
     Aviao *av1 = new Aviao();
     av1->ini(1);
-    cout << av1->velMax << endl;
+    cout << av1->velMax << "km/h - " << av1->tipo << endl;
 
     Aviao *av2 = new Aviao();
     av2->ini(2);
-    cout << av2->velMax << endl;
+    cout << av2->velMax << "km/h - " << av2->tipo << endl;
     
     return 0;
 }
