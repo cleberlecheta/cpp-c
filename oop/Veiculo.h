@@ -13,13 +13,23 @@ class Veiculo {
         int getVelMax();
         bool getLigado();
         void setLigado(int l);
+        void setVelMax(int vm); 
+        void imp();
 
     private:
         int velMax;
         std::string nome;
         bool ligado;
-        void setVelMax(int vm);
+        //void setVelMax(int vm); //nao permite alterar a velociadade externamente a classe
 };
+
+void Veiculo::imp() {
+    std::cout << "Tipo veiculo: " << tipo << std::endl;
+    std::cout << "Velocidade maxima: " << velMax << std::endl;
+    std::cout << "Tipo veiculo: " << tipo << std::endl;
+    std::cout << "Blindagem: " << blind << std::endl;
+    std::cout << "-----------------------" << std::endl;
+}
 
 int Veiculo::getVelMax() {
     return velMax;
@@ -37,10 +47,10 @@ void Veiculo::setLigado(int l) {
     ligado = l;
 }
 
-Veiculo ::Veiculo() {
+Veiculo::Veiculo() {
 };
 
-Veiculo ::Veiculo(int tp) {
+Veiculo::Veiculo(int tp) {
     tipo = tp;
     if (tipo==1) { 
         nome = "Carro";
@@ -58,15 +68,35 @@ Veiculo ::Veiculo(int tp) {
     setLigado(0);
 };
 
+//prototipo da classe Moto que herda todos os atributos de Veiculo
 class Moto:public Veiculo {
-
     public:
         Moto();
-
 };
 
+//implementacao
 Moto::Moto() {
-    Veiculo(4);
+    vel = 0;
+    blind = 0;
+    rodas = 2;
+    tipo = 4;
+    setVelMax(120);
+    setLigado(true);
 }
 
-#endif
+
+class Carro:public Veiculo {
+    public:
+        Carro();
+};
+
+Carro::Carro() {
+    vel = 0;
+    blind = 0;
+    rodas = 4;
+    tipo = 2;
+    setVelMax(180);
+    setLigado(true);
+}
+
+#endif //CLASSES_H_INCLUDED

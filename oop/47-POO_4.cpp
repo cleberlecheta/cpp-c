@@ -1,5 +1,5 @@
 #include <iostream>
-#include "classes.h"
+#include "Veiculo.h"
 
 using namespace std;
 
@@ -7,7 +7,10 @@ using namespace std;
 int main() {
     
     Moto *m1 = new Moto();
-    cout << m1->tipo;
+    Carro *c1 = new Carro;
+    
+    m1->imp();
+    c1->imp();
     
     return 0;
 }
