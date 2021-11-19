@@ -36,6 +36,12 @@ oop/46-POO_3
 oop/47-POO_4
 oop/48-POO_5
 advanced/39-mslloc
+advanced/50-ofstream
+advanced/51-ifstream
+advanced/52-fstream
+advanced/file.out
+advanced/53-iterator
+advanced/54-try-catch
 61-map
 62-smart_pointer
 64-POO-Classes
