@@ -47,6 +47,10 @@ advanced/56-auto-register-static
 advanced/57-extern
 advanced/58-for-range-declaration
 advanced/59-lambda-functions
+advanced/60-pair
+advanced/61-map
+advanced/62-smart-pointer
+advanced/63-for-each
 61-map
 62-smart_pointer
 64-POO-Classes
