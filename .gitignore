@@ -42,6 +42,11 @@ advanced/52-fstream
 advanced/file.out
 advanced/53-iterator
 advanced/54-try-catch
+advanced/55-initiliazation-uniform
+advanced/56-auto-register-static
+advanced/57-extern
+advanced/58-for-range-declaration
+advanced/59-lambda-functions
 61-map
 62-smart_pointer
 64-POO-Classes
