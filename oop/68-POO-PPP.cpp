@@ -15,14 +15,14 @@ protected:
     const char* cor; //Usando const (CONSTANTE), a declaração não precisa estar no início do código. 
 };
 
-class Carro:public Veiculo {
+class Carro:public Veiculo { //Carro herda a classe Veículo
     public: Carro() {
-        //velMax = 180;
-        //potencia = 150;
+        //velMax = 180; //private - não pode ser acessado diretamente
+        //potencia = 150; //private - não pode ser acessado diretamente
         rodas = 4;
         nome = "Carro";
-        portas = 4;
-        cor = "Vermelho";
+        portas = 4; //protected - acessível por herança
+        cor = "Vermelho"; //protected - acessível por herança
 
         //count << velMax << endl;
         //count << potencia << endl;
@@ -33,9 +33,9 @@ class Carro:public Veiculo {
     }
 };
 
-class Moto {
+class Moto { //Não herda de ninguém
 public:
-    Carro c;
+    Carro c; //acesso apenas aos atributos públicos - protected e private não podem estar acessíveis
 
     Moto() {
         //velMax = 180;

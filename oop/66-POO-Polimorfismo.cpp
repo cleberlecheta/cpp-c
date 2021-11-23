@@ -36,6 +36,7 @@ public:
 
 using namespace std;
 
+//Vários métodos com o mesmo nome e que podem fazer coisas diferentes, alterando a lista de parametros
 int main() {
     Carro c1;
     cout << c1.getNome() << " - " << c1.potencia << " - " << c1.getVelMax() << endl;

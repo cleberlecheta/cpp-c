@@ -12,5 +12,6 @@ https://cplusplus.com/
 
 
 ```shell script
-$ find . -executable -type f >>.gitignore
+$ find ./ -executable -type f >>.gitignore
+$ find ./ -executable -type f -delete
 ```

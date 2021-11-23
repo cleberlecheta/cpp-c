@@ -2,10 +2,19 @@
 #include <memory>
 
 class Carro {
-public:
+private:
     int velMax;
+public:
     int potencia;
     const char* nome;
+
+    void setVelMax(int vm) {
+        this->velMax=vm;
+    }
+
+    int getVelMax() {
+        return this->velMax;
+    }
 
     // Carro(const char* nome, int p) {
     Carro(const char* n, int p):nome(n),potencia(p) { //lista de inicializacao
@@ -21,10 +30,13 @@ public:
 
 using namespace std;
 
+//Encapsulamento - proteger o acesso às nossas propriedades
 int main() {
-    //Carro c1{"Carlito", 70};
-    unique_ptr<Carro>c1(new Carro{"Carlito", 85});
-    cout << c1->nome << " - " << c1->potencia << " - " << c1->velMax << endl;
+    unique_ptr<Carro>c1(new Carro{"Carlito", 70});
+    cout << c1->nome << " - " << c1->potencia << " - " << c1->getVelMax() << endl;
     
+    Carro c2({"Chevette", 89});
+    cout << c2.nome << " - " << c2.potencia << " - " << c2.getVelMax() << endl;
+
     return 0;
 }
