@@ -21,7 +21,7 @@ int main() {
         cout << "Numero não encontrado!" << endl;
     }
 
-    //metodo find
+    //metodo find já está embutido no tipo map
     map<char, int> mapa;
     mapa['a'] = 10;
     mapa['b'] = 33;
@@ -36,9 +36,9 @@ int main() {
         cout << "Chave não encontrada!" << endl;
     }
 
-    string texto = "Aula de c++";
-    size_t enc = texto.find("c++");
-    if(enc != string::npos) {
+    string texto = "Aula de c++"; //string também tem find embutido
+    size_t enc = texto.find("c++"); //size_t é um tipo próprio para armazenar tamanho de elementos
+    if(enc != string::npos) { //npos - valor máximo do tipo string
         cout << "Palavra encontrada at: " << enc << endl;
     } else {
         cout << "Palavra não encontrada!" << endl;

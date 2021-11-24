@@ -5,7 +5,7 @@ using namespace std;
 
 int main() {
 
-    setlocale(LC_ALL,"portuguese");
+    setlocale(LC_ALL, "portuguese");
     cout << "É possível comer maça com banana" << endl;
 
     return 0;
