@@ -58,6 +58,6 @@ advanced/63-for-each
 advanced/63-for_each_ex2
 advanced/69-FIND
 advanced/70-setlocale
-72-iostream
-73-cstdlib_p1
-74-cstdlib_p2
+libraries/72-iostream
+libraries/73-cstdlib_p1
+libraries/74-cstdlib_p2
