@@ -61,3 +61,9 @@ advanced/70-setlocale
 libraries/72-iostream
 libraries/73-cstdlib_p1
 libraries/74-cstdlib_p2
+libraries/75-cstdlib_p3
+libraries/76-typeinfo
+libraries/77-functional
+libraries/78-utility
+libraries/79-ctime
+

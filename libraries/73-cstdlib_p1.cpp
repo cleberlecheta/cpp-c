@@ -1,16 +1,17 @@
 #include <iostream>
-#include <cstdlib>
+#include <cstdlib> //antiga stdlib.h
 #include <ctime>
 
 using namespace std;
 
 int main() {
-/*
+/*  Funções de conversão de tipo
+
     double num;
     char numero[80];
 
     cin >> numero;
-    num = atof(numero); //alfa para float
+    num = atof(numero); //alfa para float ou doble
     num = strtod(numero,NULL); //string para double
     //atoi alfa to int
     //atol alfa to long
@@ -19,12 +20,14 @@ int main() {
     cout << num << endl;
 */
 
-    srand(time(NULL));
+    //Função de geração de número aleatório
+    srand(time(NULL)); //necessaŕio para o rand retorno sempre valores diferences a cada execução
     for (int i=0; i<10; i++) {
-        cout << rand()%100 << endl;
+        cout << rand()%100 << endl; //aletario de 0 a 100
     }
 
-    //gerenciamento dinamico de memória
+    /* Funções de gerenciamento dinamico de memória
+      calloc malloc free realloc */
     int tam=10, num;
     int *vector;
 

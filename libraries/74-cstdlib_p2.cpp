@@ -1,5 +1,5 @@
 #include <iostream>
-#include <cstdlib>
+#include <cstdlib> //antiga stdlib.h
 
 using namespace std;
 
@@ -21,11 +21,12 @@ int main() {
         cout << vetor[i] << endl;
     }
 
-    pos = (int*) bsearch(&pesq,vetor,10,sizeof(int),comparacao);
-    cout << "Elemento " << pesq << " esta na posicao " << pos << endl;
+    pos = (int*) bsearch(&pesq,vetor,10,sizeof(int),comparacao); //pesquisa elemento
+    cout << "Elemento " << pesq << " esta na posicao " << *pos << endl; //valor
+    //cout << "Elemento " << pesq << " esta na posicao " << pos << endl; //end de memoria
 
     const char* p;
-    p=getenv("PATH");
+    p=getenv("PATH"); //capturar variável de ambiente
     cout << p << endl;
 
     atexit(fim); //at_quick_exit
@@ -33,12 +34,12 @@ int main() {
         if (i<5) {
             cout << i << endl;
         } else {
-            exit(EXIT_SUCCESS);
+            exit(EXIT_SUCCESS); //encerramento do programa
             cout << i << endl;
         }
     }
 
-    system("clear");
+    system("clear"); //roda um programa do SO
 
     return 0;
 };
