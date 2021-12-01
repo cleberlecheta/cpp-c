@@ -66,4 +66,7 @@ libraries/76-typeinfo
 libraries/77-functional
 libraries/78-utility
 libraries/79-ctime
+libraries/80-chrono
+libraries/81-cctype
+libraries/82-cstring
 
