@@ -69,4 +69,5 @@ libraries/79-ctime
 libraries/80-chrono
 libraries/81-cctype
 libraries/82-cstring
+libraries/83-cstring_p2
 
