@@ -26,7 +26,7 @@ int main() {
   if (vt.empty()) {
       cout << "vector vazio";
   } else {
-    //
+    cout << "vector tem conteúdo";
   }
 
   cout << endl;
@@ -35,6 +35,15 @@ int main() {
   cout << vt.back() << endl;
 
   vt.assign(10,0);
+
+  vector<int>::iterator it;
+  it = vt.begin();
+  vt.insert(it, 5);
+
+  cout << endl;
+  for (auto x:vt) {
+    cout << x << endl;
+  }
 
   return 0;
 };

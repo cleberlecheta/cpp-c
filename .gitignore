@@ -75,4 +75,6 @@ libraries/85-string_p2
 libraries/86-string_p3
 libraries/87-array
 libraries/88-vector
+libraries/89-list
+libraries/90-set
 
