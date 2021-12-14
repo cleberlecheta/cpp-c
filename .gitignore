@@ -77,4 +77,8 @@ libraries/87-array
 libraries/88-vector
 libraries/89-list
 libraries/90-set
+libraries/91-map
+libraries/92-stack
+libraries/93-queue
+libraries/94-deque
 
