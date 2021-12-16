@@ -81,4 +81,6 @@ libraries/91-map
 libraries/92-stack
 libraries/93-queue
 libraries/94-deque
-
+libraries/95-algorithm_p1
+libraries/96-iterator
+libraries/97-algorithm_p2
