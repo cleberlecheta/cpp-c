@@ -85,3 +85,6 @@ libraries/95-algorithm_p1
 libraries/96-iterator
 libraries/97-algorithm_p2
 libraries/98-algorithm_p3
+libraries/99-cmath
+libraries/100-fstream
+libraries/fstream_100.txt
