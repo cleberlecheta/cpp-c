@@ -88,3 +88,6 @@ libraries/98-algorithm_p3
 libraries/99-cmath
 libraries/100-fstream
 libraries/fstream_100.txt
+libraries/101-iomanip
+libraries/102-bits-stdc++
+libraries/102-bits.txt
